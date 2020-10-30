@@ -1,0 +1,19 @@
+matrix:
+  include:
+  - language: ruby
+    name: Link Checking (rvm 2.7)
+    rvm: 2.7
+    env:
+    - WHITELIST="https://img.shields.io"
+    - EXCLUDE_FILES="CHANGELOG.md"
+    before_install:
+    - mkdir travis
+    - git clone https://github.com/TravisToolbox/awesomebot-travis.git travis/awesomebot
+    install:
+    - "./travis/awesomebot/install.sh"
+    script:
+    - "./travis/awesomebot/scan.sh"
+notifications:
+  email: false
+  slack:
+    secure: VDqEb31/IyZymhYNxt1Mviiz1/NTLViGTMgEFwmzRcwAnnwOAXHb4GkRYZ0hXRsOKB+LR8zSCOgrhMqZn0TfkXq+LfbXi9eYf5jDD0tKipwCBc5k+m5W+pM+oAwRyHQhK5cYdv7H4IGLCoSzDC7EELFnQ4Vw9H5kRHUVg/P26ECKiIhpWZtSk4hMEfaAAS8vIk4Pc3uyvKPJMS+qZbdiOxOlSyHfK+AEgT2qADUG4cwyqr6UxXJxyK+w/rgQtOWKeY/mugfAfhzGT62jn+XABYiRG71Qr287d85LmQlrLwla89BBXxJANyYh1TW4UDKh0fRvgZnU7omicpolSXg0Q4HSI6pMAA2CB35ujNidMDQWhnxdiYRtqAi15ahAUTwawGn57T0hg6QW/ul+tnule9t0tu5ttYZiN4nKy/eCewViVfXm6DPUG5+Ia9H0OuLMUF70PZj7uDM+b50Ei23/QKDLBG7ms/rPfQFWOCuFpEFauoluSF66jKkJHiYgA0tL9YDgVeFbl2Y+67rdXJeKwvwVBHrysnZ+fWd7AYHllrlESNuQ3uNy3x6ii+CDxW2XD2WjUxXBm9AhU8Pv0T0/6lazcNI7X6vOi2QRQU3lpi+slMPCKumThHhyAcXZtH+XQZAeJ7J1vF/BVNRBTbvRRmYTofZ2a0Ttwi44K5nCQ6I=
