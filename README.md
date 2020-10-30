@@ -1,5 +1,4 @@
 <h1 align="center">
-        <br>
         <a href="https://github.com/TGWolf">
                 <img src="https://github.com/TGWolf/branding/blob/master/images/general/logos/128/without-name/white.png?raw=true" alt="TGWolf Banner" />
         </a>
@@ -81,6 +80,6 @@
 
 <p>
 	<a href="https://github.com/TGWolf">
-		<img src="https://img.shields.io/badge/Wolf-black?style=for-the-badge" />
+		<img src="https://img.shields.io/badge/Wolf-black?style=for-the-badge&logo=baidu&logoColor=white" />
 	</a>
 </p>
