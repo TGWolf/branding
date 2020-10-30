@@ -1,7 +1,7 @@
 <h1 align="center">
         <br>
         <a href="https://github.com/TGWolf">
-                <img src="https://github.com/TGWolf/branding/blob/master/images/general/banners/64/with-name/white.png?raw=true" alt="TGWolf Banner" />
+                <img src="https://github.com/TGWolf/branding/blob/master/images/general/logos/64/without-name/white.png?raw=true" alt="TGWolf Banner" />
         </a>
         <br>
         My Personal Branding
