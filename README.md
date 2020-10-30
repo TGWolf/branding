@@ -20,6 +20,7 @@
 	<a href="https://www.gimp.org/">
 		<img src="https://img.shields.io/badge/Created%20With-Gimp-black?style=for-the-badge&logo=gimp" alt="Gimp">
 	</a>
+	<br />
         <a href=".github/CODE_OF_CONDUCT.md">
                 <img src="https://img.shields.io/badge/Code%20of%20Conduct-black?style=for-the-badge&logo=read-the-docs&logoColor=white" />
         </a>

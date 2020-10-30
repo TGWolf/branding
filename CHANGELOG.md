@@ -7,7 +7,9 @@ This changelog was automatically generated using [Caretaker](https://github.com/
 
 ### [Unreleased](https://github.com/TGWolf/branding/commits/master)
 
-- tweak [`[head]`](https://github.com/TGWolf/branding/commit/)
+- update [`[head]`](https://github.com/TGWolf/branding/commit/)
+
+- tweak [`[3ac75d3]`](https://github.com/TGWolf/branding/commit/3ac75d32d55707de27dbb6754513cb40da5cdf51)
 
 - tweak [`[0752d34]`](https://github.com/TGWolf/branding/commit/0752d34eaaaa9a96a08bae991d96c2ec99e5ca4c)
 
